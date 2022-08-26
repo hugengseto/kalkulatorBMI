@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator BMI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalkulator BMI</h1>
+      <div class="konten">
+        <form>
+          <table>
+            <tr>
+              <td>Tinggi Badan(Cm)</td>
+              <td>: <input type="text" id="tinggi"></td> 
+            </tr>
+            <tr>
+              <td>Berat Badan(Kg)</td>
+              <td>: <input type="text" id="berat"></td>
+            </tr>
+          </table>
+            <input type="button" id="calc" value="Hitung">
+            <input type="reset" id="reset" value="Reset">
+        </form>
+        
+          <h2 id="hasil"></h2>
+          <p id="total"></p>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
